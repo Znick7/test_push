@@ -1,5 +1,5 @@
 import random
-#helloworld wow thats cool
+
 user_wins = 0
 computer_wins = 0
 options = ["rock", "paper", "scissors"]

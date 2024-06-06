@@ -7,7 +7,7 @@ pygame.init()
 WIDTH , HEIGHT = 800 , 600
 
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("AimBot v1.0")
+pygame.display.set_caption("AimBot v1.1")
 
 TARGET_INCREMENT = 400
 TARGET_EVENT = pygame.USEREVENT
