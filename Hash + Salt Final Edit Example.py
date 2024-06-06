@@ -3,7 +3,7 @@ import getpass
 import hashlib
 import os
 import getpass
-
+print("this is a test")
 # User prompt to enter info // signup
 username = input("Enter your username: ")
 passwords = getpass.getpass("Enter your password: ")
