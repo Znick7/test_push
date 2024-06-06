@@ -86,11 +86,13 @@ def end_screen(win, elapsed_time, targets_pressed, clicks):
     hits_label = LABEL_FONT.render(f"Hits: {targets_pressed}", 1, "white")
     accuracy = round(targets_pressed / clicks *100,1)
     accuracy_label = LABEL_FONT.render(f"Accuracy: {accuracy}%", 1, "white")
+    clicks_label = LABEL_FONT.render(f"Total Clicks: {clicks}", 1, "white")
 
     WIN.blit(time_label, (get_middle(time_label), 100))
     WIN.blit(speed_label, (get_middle(speed_label), 200))
     WIN.blit(hits_label, (get_middle(hits_label), 300))
     WIN.blit(accuracy_label,(get_middle(accuracy_label), 400))
+    WIN.blit(clicks_label, (get_middle(clicks_label), 500))
 
     pygame.display.update()
     run = True
